@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitInstance {
     private static Retrofit retrofit=null;
     private static String BASE_URL="https://jsonplaceholder.typicode.com/";
-    private static POSTAppService getService()
+    public static POSTAppService getService()
     {
         if(retrofit==null)
         {
